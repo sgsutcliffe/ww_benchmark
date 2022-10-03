@@ -1,0 +1,101 @@
+Name,Lineages,Read_length,Ratio,Coverage,#Total paired reads,Sample
+Two lineages,BA.1:Delta,250,75:25:00,lowcov,4000,1
+Two lineages+Synth,BA.1:Delta:Synth,250,65:25:10,hicov,80700,2
+Two lineages,BA.1:Delta,250,75:25:00,hicov,80700,3
+Three lineages,BA.1:BA.2:Delta,250,33:33:33,lowcov,4000,4
+Two lineages+Synth,BA.1:Delta:Synth,250,80:10:10,lowcov,4000,5
+Two lineages,BA.1:Delta,150,50:50:00,lowcov,7500,6
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,30:30:30:10,lowcov,4000,7
+Two lineages,BA.1:Delta,250,0.110416667,lowcov,4000,8
+Two lineages,BA.1:Delta,250,90:10:00,lowcov,4000,9
+Two lineages,BA.1:Delta,250,90:10:00,hicov,80700,10
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,10:10:70:10,hicov,80700,11
+Two lineages (drop),BA.1_drop:Delta,250,25:75,hicov,80700,12
+Two lineages,BA.1:Delta,150,0.479166667,lowcov,7500,13
+Two lineages (drop),BA.1_drop:Delta,250,90:10:00,lowcov,4000,14
+Three lineages,BA.1:BA.2:Delta,250,0.472337963,lowcov,4000,15
+Two lineages (drop),BA.1_drop:Delta,250,0.110416667,hicov,80700,16
+Single lineage,BA.2,250,100,lowcov,4000,17
+Two lineages,BA.1:Delta,150,75:25:00,hicov,150000,18
+Two lineages,BA.1:BA.2,250,50:50:00,hicov,80700,19
+Single lineage,BA.1,150,100,hicov,150000,20
+Two lineages+Synth,BA.1:Delta:Synth,250,0.103587963,hicov,80700,21
+Single lineage,BA.1_drop,250,100,hicov,80700,22
+Single lineage,BA.1_drop,150,100,lowcov,7500,23
+Two lineages (drop),BA.1_drop:Delta,250,50:50:00,hicov,80700,24
+Two lineages+Synth,BA.1:Delta:Synth,250,65:25:10,lowcov,4000,25
+Two lineages (drop),BA.1_drop:Delta,250,50:50:00,lowcov,4000,26
+Two lineages (drop),BA.1_drop:Delta,250,75:25:00,hicov,80700,27
+Two lineages (drop),BA.1_drop:Delta,250,0.110416667,lowcov,4000,28
+Two lineages (drop),BA.1_drop:Delta,250,0.479166667,hicov,80700,29
+Two lineages+Synth,BA.1:Delta:Synth,250,0.103587963,lowcov,4000,30
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,70:10:10:10,hicov,80700,31
+Two lineages,BA.1:Delta,150,25:75,hicov,150000,32
+Two lineages,BA.1:BA.2,250,75:25:00,hicov,80700,33
+Two lineages,BA.1:Delta,150,99:01:00,lowcov,7500,34
+Two lineages,BA.1:Delta,150,25:75,lowcov,7500,35
+Two lineages (drop),BA.1_drop:Delta,250,0.479166667,lowcov,4000,36
+Two lineages+Synth,BA.1:Delta:Synth,250,45:45:10,lowcov,4000,37
+Two lineages (drop),BA.1_drop:Delta,250,25:75,lowcov,4000,38
+Two lineages,BA.1:Delta,150,0.479166667,hicov,150000,39
+Single lineage,BA.1_drop,150,100,hicov,150000,40
+Two lineages,BA.1:Delta,250,25:75,lowcov,4000,41
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,10:70:10:10,lowcov,4000,42
+Single lineage,BA.2,150,100,lowcov,7500,43
+Three lineages,BA.1:BA.2:Delta,250,0.424537037,lowcov,4000,44
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,70:10:10:10,lowcov,4000,45
+Two lineages,BA.1:Delta,250,99:01:00,hicov,80700,46
+Two lineages,BA.1:Delta,150,50:50:00,hicov,150000,47
+Two lineages,BA.1:Delta,250,50:50:00,lowcov,4000,48
+Two lineages,BA.1:Delta,150,0.110416667,lowcov,7500,49
+Two lineages,BA.1:Delta,150,75:25:00,lowcov,7500,50
+Single lineage,Delta,250,100,hicov,80700,51
+Single lineage,Recomb,250,100,lowcov,4000,52
+Two lineages,BA.1:Delta,150,90:10:00,lowcov,7500,53
+Single lineage,Delta,150,100,lowcov,7500,54
+Two lineages,BA.1:Delta,250,0.479166667,hicov,80700,55
+Two lineages,BA.1:Delta,150,99:01:00,hicov,150000,56
+Single lineage,Delta,250,100,lowcov,4000,57
+Two lineages,BA.1:Delta,250,0.110416667,hicov,80700,58
+Two lineages,BA.1:BA.2,250,50:50:00,lowcov,4000,59
+Two lineages,BA.1:BA.2,250,25:75,hicov,80700,60
+Two lineages,BA.1:Delta,250,0.479166667,lowcov,4000,61
+Two lineages+Synth,BA.1:Delta:Synth,250,25:65:10,hicov,80700,62
+Single lineage,BA.1,150,100,lowcov,7500,63
+Two lineages,BA.1:Delta,150,0.110416667,hicov,150000,64
+Three lineages,BA.1:BA.2:Delta,250,80:10:10,lowcov,4000,65
+Single lineage,Synth,250,100,lowcov,4000,66
+Three lineages,BA.1:BA.2:Delta,250,33:33:33,hicov,80700,67
+Single lineage,Synth,150,100,hicov,150000,68
+Two lineages (drop),BA.1_drop:Delta,250,75:25:00,lowcov,4000,69
+Two lineages,BA.1:Delta,150,90:10:00,hicov,150000,70
+Single lineage,BA.1_drop,250,100,lowcov,4000,71
+Single lineage,Delta,150,100,hicov,150000,72
+Two lineages+Synth,BA.1:Delta:Synth,250,0.472337963,lowcov,4000,73
+Two lineages,BA.1:Delta,250,99:01:00,lowcov,4000,74
+Single lineage,Synth,250,100,hicov,80700,75
+Single lineage,BA.1,250,100,hicov,80700,76
+Two lineages (drop),BA.1_drop:Delta,250,99:01:00,lowcov,4000,77
+Two lineages+Synth,BA.1:Delta:Synth,250,0.472337963,hicov,80700,78
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,10:70:10:10,hicov,80700,79
+Two lineages,BA.1:BA.2,250,75:25:00,lowcov,4000,80
+Two lineages,BA.1:Delta,250,25:75,hicov,80700,81
+Three lineages,BA.1:BA.2:Delta,250,80:10:10,hicov,80700,82
+Single lineage,Recomb,250,100,hicov,80700,83
+Two lineages,BA.1:BA.2,250,25:75,lowcov,4000,84
+Two lineages+Synth,BA.1:Delta:Synth,250,45:45:10,hicov,80700,85
+Two lineages (drop),BA.1_drop:Delta,250,99:01:00,hicov,80700,86
+Two lineages+Synth,BA.1:Delta:Synth,250,80:10:10,hicov,80700,87
+Two lineages,BA.1:Delta,250,50:50:00,hicov,80700,88
+Two lineages+Synth,BA.1:Delta:Synth,250,89:01:10,hicov,80700,89
+Single lineage,BA.2,150,100,hicov,150000,90
+Two lineages+Synth,BA.1:Delta:Synth,250,25:65:10,lowcov,4000,91
+Three lineages,BA.1:BA.2:Delta,250,0.472337963,hicov,80700,92
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,10:10:70:10,lowcov,4000,93
+Three lineages+Synth,BA.1:BA.2:Delta:Synth,250,30:30:30:10,hicov,80700,94
+Two lineages+Synth,BA.1:Delta:Synth,250,89:01:10,lowcov,4000,95
+Two lineages (drop),BA.1_drop:Delta,250,90:10:00,hicov,80700,96
+Single lineage,BA.1,250,100,lowcov,4000,97
+Single lineage,Synth,150,100,lowcov,7500,98
+Three lineages,BA.1:BA.2:Delta,250,0.424537037,hicov,80700,99
+Single lineage,BA.2,250,100,hicov,80700,100
