@@ -1,0 +1,228 @@
+T27638C (ORF7a:V82A):
+53 are C, 330 are wildtype (13.84% of 383 total)
+G28209C (ORF8:E106Q):
+0 are C, 345 are wildtype (0.00% of 345 total)
+A21801G (S:D80G):
+0 are G, 508 are wildtype (0.00% of 508 total)
+C23709T (S:T716I):
+0 are T, 819 are wildtype (0.00% of 819 total)
+G28883- (N:DEL204):
+0 are -, 337 are wildtype (0.00% of 337 total)
+G28884- (N:DEL204):
+0 are -, 394 are wildtype (0.00% of 394 total)
+A28885- (N:DEL204):
+0 are -, 398 are wildtype (0.00% of 398 total)
+C28311T (N:P13L):
+386 are T, 84 are wildtype (82.13% of 470 total)
+C21614T (S:L18F):
+0 are T, 756 are wildtype (0.00% of 756 total)
+A23063T (S:N501Y):
+731 are T, 57 are wildtype (92.77% of 788 total)
+T22031- (S:DEL157):
+44 are -, 649 are wildtype (6.35% of 693 total)
+T22032- (S:DEL157):
+43 are -, 650 are wildtype (6.20% of 693 total)
+C22033- (S:DEL157):
+43 are -, 649 are wildtype (6.21% of 692 total)
+T26767C (M:I82T):
+121 are C, 1016 are wildtype (10.64% of 1137 total)
+A22206G (S:D215G):
+0 are G, 669 are wildtype (0.00% of 669 total)
+G24410A (S:D950N):
+75 are A, 240 are wildtype (23.81% of 315 total)
+A24775C (S:Q1071H):
+0 are C, 433 are wildtype (0.00% of 433 total)
+A24775T (S:Q1071H):
+0 are T, 433 are wildtype (0.00% of 433 total)
+G22813C (S:K417N):
+0 are C, 490 are wildtype (0.00% of 490 total)
+G22813T (S:K417N):
+365 are T, 125 are wildtype (74.49% of 490 total)
+C21575T (S:L5F):
+0 are T, 686 are wildtype (0.00% of 686 total)
+C23271A (S:A570D):
+1 are A, 439 are wildtype (0.23% of 440 total)
+G28628T (N:A119S):
+0 are T, 224 are wildtype (0.00% of 224 total)
+C21621A (S:T20N):
+1 are A, 759 are wildtype (0.13% of 760 total)
+A28461G (N:D63G):
+7 are G, 215 are wildtype (3.15% of 222 total)
+C28977T (N:S235F):
+0 are T, 526 are wildtype (0.00% of 526 total)
+G24776- (S:DEL1072):
+1 are -, 427 are wildtype (0.23% of 428 total)
+A24777- (S:DEL1072):
+0 are -, 431 are wildtype (0.00% of 431 total)
+A24778- (S:DEL1072):
+0 are -, 429 are wildtype (0.00% of 429 total)
+C25904T (ORF3a:S171L):
+0 are T, 252 are wildtype (0.00% of 252 total)
+C27970T (ORF8:T26I):
+0 are T, 458 are wildtype (0.00% of 458 total)
+T26767G (M:I82S):
+0 are G, 1137 are wildtype (0.00% of 1137 total)
+G29402T (N:D377Y):
+40 are T, 397 are wildtype (9.15% of 437 total)
+A28111G (ORF8:Y73C):
+0 are G, 278 are wildtype (0.00% of 278 total)
+C27925T (ORF8:T11I):
+0 are T, 465 are wildtype (0.00% of 465 total)
+C24642T (S:T1027I):
+0 are T, 543 are wildtype (0.00% of 543 total)
+G28916- (N:DEL215):
+0 are -, 446 are wildtype (0.00% of 446 total)
+G28917- (N:DEL215):
+0 are -, 449 are wildtype (0.00% of 449 total)
+T28918- (N:DEL215):
+0 are -, 451 are wildtype (0.00% of 451 total)
+G23012A (S:E484K):
+0 are A, 862 are wildtype (0.00% of 862 total)
+G21974T (S:D138Y):
+0 are T, 632 are wildtype (0.00% of 632 total)
+T26149C (ORF3a:S253P):
+0 are C, 342 are wildtype (0.00% of 342 total)
+A24432G (S:Q957R):
+0 are G, 357 are wildtype (0.00% of 357 total)
+C23604A (S:P681H):
+498 are A, 37 are wildtype (93.08% of 535 total)
+C28512G (N:P80R):
+1 are G, 181 are wildtype (0.55% of 182 total)
+C23525T (S:H655Y):
+247 are T, 23 are wildtype (91.48% of 270 total)
+C27752T (ORF7a:T120I):
+56 are T, 541 are wildtype (9.38% of 597 total)
+C22995A (S:T478K):
+823 are A, 0 are wildtype (100.00% of 823 total)
+G22132C (S:R190S):
+0 are C, 764 are wildtype (0.00% of 764 total)
+G22132T (S:R190S):
+1 are T, 763 are wildtype (0.13% of 764 total)
+C26456T (E:P71L):
+0 are T, 987 are wildtype (0.00% of 987 total)
+T22032C (S:F157S):
+0 are C, 650 are wildtype (0.00% of 650 total)
+C25517T (ORF3a:P42L):
+0 are T, 651 are wildtype (0.00% of 651 total)
+C28887T (N:T205I):
+0 are T, 400 are wildtype (0.00% of 400 total)
+A28877C (N:S202R):
+0 are C, 366 are wildtype (0.00% of 366 total)
+T28879A (N:S202R):
+0 are A, 361 are wildtype (0.00% of 361 total)
+T28879G (N:S202R):
+0 are G, 361 are wildtype (0.00% of 361 total)
+T21992- (S:DEL144):
+588 are -, 51 are wildtype (92.02% of 639 total)
+A21993- (S:DEL144):
+588 are -, 51 are wildtype (92.02% of 639 total)
+T21994- (S:DEL144):
+588 are -, 50 are wildtype (92.16% of 638 total)
+C21846T (S:T95I):
+423 are T, 3 are wildtype (99.30% of 426 total)
+A21801C (S:D80A):
+0 are C, 508 are wildtype (0.00% of 508 total)
+T22283- (S:DEL241):
+0 are -, 202 are wildtype (0.00% of 202 total)
+T22284- (S:DEL241):
+0 are -, 202 are wildtype (0.00% of 202 total)
+A22285- (S:DEL241):
+0 are -, 202 are wildtype (0.00% of 202 total)
+G24914C (S:D1118H):
+0 are C, 353 are wildtype (0.00% of 353 total)
+G22018C (S:W152C):
+0 are C, 686 are wildtype (0.00% of 686 total)
+G22018T (S:W152C):
+0 are T, 686 are wildtype (0.00% of 686 total)
+C25678- (ORF3a:DEL96):
+0 are -, 495 are wildtype (0.00% of 495 total)
+T25679- (ORF3a:DEL96):
+0 are -, 494 are wildtype (0.00% of 494 total)
+C25680- (ORF3a:DEL96):
+0 are -, 493 are wildtype (0.00% of 493 total)
+C23603- (S:DEL681):
+0 are -, 534 are wildtype (0.00% of 534 total)
+C23604- (S:DEL681):
+0 are -, 535 are wildtype (0.00% of 535 total)
+T23605- (S:DEL681):
+0 are -, 539 are wildtype (0.00% of 539 total)
+G25088T (S:V1176F):
+0 are T, 438 are wildtype (0.00% of 438 total)
+C23664T (S:A701V):
+0 are T, 761 are wildtype (0.00% of 761 total)
+A22320G (S:D253G):
+0 are G, 202 are wildtype (0.00% of 202 total)
+T22917G (S:L452R):
+135 are G, 515 are wildtype (20.77% of 650 total)
+G23012C (S:E484Q):
+0 are C, 862 are wildtype (0.00% of 862 total)
+G28883A (N:G204R):
+0 are A, 337 are wildtype (0.00% of 337 total)
+G28883C (N:G204R):
+276 are C, 61 are wildtype (81.90% of 337 total)
+G21600T (S:S13I):
+0 are T, 759 are wildtype (0.00% of 759 total)
+G24410C (S:D950H):
+0 are C, 315 are wildtype (0.00% of 315 total)
+C28472T (N:P67S):
+0 are T, 217 are wildtype (0.00% of 217 total)
+A22812C (S:K417T):
+0 are C, 486 are wildtype (0.00% of 486 total)
+G28048T (ORF8:R52I):
+1 are T, 430 are wildtype (0.23% of 431 total)
+C25469T (ORF3a:S26L):
+38 are T, 596 are wildtype (5.99% of 634 total)
+C21618G (S:T19R):
+64 are G, 693 are wildtype (8.45% of 757 total)
+G28248- (ORF8:DEL119):
+58 are -, 375 are wildtype (13.39% of 433 total)
+A28249- (ORF8:DEL119):
+58 are -, 376 are wildtype (13.36% of 434 total)
+T28250- (ORF8:DEL119):
+58 are -, 380 are wildtype (13.24% of 438 total)
+C27739T (ORF7a:L116F):
+0 are T, 550 are wildtype (0.00% of 550 total)
+C23604G (S:P681R):
+37 are G, 498 are wildtype (6.92% of 535 total)
+G28881T (N:R203M):
+45 are T, 289 are wildtype (13.47% of 334 total)
+C28170T (ORF8:P93S):
+0 are T, 299 are wildtype (0.00% of 299 total)
+C21638T (S:P26S):
+0 are T, 756 are wildtype (0.00% of 756 total)
+C24138A (S:T859N):
+0 are A, 202 are wildtype (0.00% of 202 total)
+A28254- (ORF8:DEL121):
+0 are -, 445 are wildtype (0.00% of 445 total)
+T28255- (ORF8:DEL121):
+0 are -, 450 are wildtype (0.00% of 450 total)
+C28256- (ORF8:DEL121):
+0 are -, 454 are wildtype (0.00% of 454 total)
+G22992A (S:S477N):
+696 are A, 122 are wildtype (85.09% of 818 total)
+T24506G (S:S982A):
+0 are G, 618 are wildtype (0.00% of 618 total)
+C21767- (S:DEL69):
+468 are -, 55 are wildtype (89.48% of 523 total)
+A21768- (S:DEL69):
+461 are -, 63 are wildtype (87.98% of 524 total)
+T21769- (S:DEL69):
+460 are -, 64 are wildtype (87.79% of 524 total)
+G28044T (ORF8:A51S):
+0 are T, 426 are wildtype (0.00% of 426 total)
+G25563C (ORF3a:Q57H):
+0 are C, 651 are wildtype (0.00% of 651 total)
+G25563T (ORF3a:Q57H):
+0 are T, 651 are wildtype (0.00% of 651 total)
+G28881A (N:R203K):
+288 are A, 46 are wildtype (86.23% of 334 total)
+C28869T (N:P199L):
+0 are T, 359 are wildtype (0.00% of 359 total)
+G28167A (ORF8:E92K):
+0 are A, 299 are wildtype (0.00% of 299 total)
+G28975A (N:M234I):
+0 are A, 526 are wildtype (0.00% of 526 total)
+G28975C (N:M234I):
+0 are C, 526 are wildtype (0.00% of 526 total)
+G28975T (N:M234I):
+0 are T, 526 are wildtype (0.00% of 526 total)

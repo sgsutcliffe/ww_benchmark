@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "nuc:C27889T",
+      "nucleotide": "C27889T",
+      "count": 0,
+      "coverage": 578
+    },
+    {
+      "sample": "sample",
+      "mutation": "m:D3N",
+      "nucleotide": "G26529A",
+      "count": 0,
+      "coverage": 1082
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 6.4759e-14,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BA.5"],
+  "run.dir": ["sample"]
+}

@@ -1,0 +1,42 @@
+{
+    "label": "Omicron (BA.5-like)",
+    "description": "BA.5 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BA.5"
+        ],
+        "WHO_label": "Omicron",
+	      "mrca_lineage": "BA.5",
+        "lineage_name": "BA.5",
+        "parent_lineage": "B.1.1.529",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BA.5"
+    ],
+    "sites": [
+      {
+        "nt": "C27889T",
+        "aa": "nuc:C27889T"
+      }, 
+      {
+        "nt": "G26529A",
+        "aa": "m:D3N"
+      }
+    ],
+    "note": "Unique mutations for sublineage",
+    "rules": {
+      "default": {
+        "min_alt": 27,
+        "max_ref": 5,
+        "s:Q493":"ref",
+        "nuc:C26858":"ref",
+        "nuc:G27788":"ref",
+        "n:P151":"ref",
+        "m:D3":"alt"
+      }
+    }
+}

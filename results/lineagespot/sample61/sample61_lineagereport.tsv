@@ -1,0 +1,14 @@
+"lineage"	"sample"	"meanAF"	"meanAF_uniq"	"minAF_uniq_nonzero"	"N"	"lineage N. rules"	"lineage prop."
+"AY.1"	"sample.freebayes.ann"	0.404408163729244	0	NA	9	31	0.290322580645161
+"AY.2"	"sample.freebayes.ann"	0.368505278469192	0.177083333333333	0.666666666666667	9	29	0.310344827586207
+"AY.3"	"sample.freebayes.ann"	0.417130860095976	0	NA	9	30	0.3
+"AY.3.1"	"sample.freebayes.ann"	0.391060181339978	0	NA	9	32	0.28125
+"B.1.1.7"	"sample.freebayes.ann"	0.062200956937799	0	NA	1	22	0.0454545454545455
+"B.1.1.7+S_E484K"	"sample.freebayes.ann"	0.0594965675057208	0	NA	1	23	0.0434782608695652
+"B.1.351"	"sample.freebayes.ann"	0.0217304625199362	0	NA	0	18	0
+"B.1.351.2"	"sample.freebayes.ann"	0.0186261107313739	0	NA	0	21	0
+"B.1.351.3"	"sample.freebayes.ann"	0.040506742061766	0	NA	0	22	0
+"B.1.617.2"	"sample.freebayes.ann"	0.48796472077203	1	1	10	21	0.476190476190476
+"P.1"	"sample.freebayes.ann"	0.0160183066361556	0	NA	0	23	0
+"P.1.1"	"sample.freebayes.ann"	0.0175438596491228	0	NA	0	21	0
+"P.1.2"	"sample.freebayes.ann"	0.0160183066361556	0	NA	0	23	0

@@ -1,0 +1,61 @@
+{
+    "label": "Omicron (BA.2.75)",
+    "description": "BA.2.75 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BA.2.75"
+        ],
+        "WHO_label": "Omicron",
+    	  "mrca_lineage": "BA.2.75",
+        "lineage_name": "BA.2.75",
+        "parent_lineage": "BA.2",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BA.2.75"
+    ],
+    "sites": [
+        {
+            "nt": "A12444G",
+            "aa": "orf1a:N4060S"
+        },
+        {
+            "nt": "C3927T",
+            "aa": "orf1a:S1221L"
+        },
+        {
+            "nt": "A26275G",
+            "aa": "e:T11A"
+        },
+        {
+            "nt": "A22001G",
+            "aa": "spike:K147E"
+        },
+        {
+            "nt": "C22033A",
+            "aa": "spike:F157L"
+        },
+        {
+            "nt": "T22016C",
+            "aa": "spike:W152R"
+        },
+        {
+            "nt": "A22190G",
+            "aa": "spike:I210V"
+        },
+        {
+            "nt": "T22942G",
+            "aa": "spike:N460K"
+        },
+        {
+            "nt": "G22331A",
+            "aa": "spike:G257S"
+        }  
+    ],
+    "note": "Unique mutations for sublineage",
+    "rules": {
+    }
+}

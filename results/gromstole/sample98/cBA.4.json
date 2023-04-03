@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "orf7b:L11F",
+      "nucleotide": "G27788T",
+      "coverage": 4
+    },
+    {
+      "sample": "sample",
+      "mutation": "n:P151S",
+      "nucleotide": "C28724T",
+      "count": 0,
+      "coverage": 34
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 3.9516e-12,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BA.4"],
+  "run.dir": ["sample"]
+}

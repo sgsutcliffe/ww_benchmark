@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "orf1ab:K856R",
+      "nucleotide": "A2832G",
+      "count": 2,
+      "coverage": 1041
+    },
+    {
+      "sample": "sample",
+      "mutation": "nuc:T5386G",
+      "nucleotide": "T5386G",
+      "count": 0,
+      "coverage": 931
+    },
+    {
+      "sample": "sample",
+      "mutation": "del:6513:3",
+      "nucleotide": "-6513.3",
+      "count": 0,
+      "coverage": 842
+    },
+    {
+      "sample": "sample",
+      "mutation": "orf1ab:A2710T",
+      "nucleotide": "G8393A",
+      "count": 0,
+      "coverage": 251
+    },
+    {
+      "sample": "sample",
+      "mutation": "orf1ab:I3758V",
+      "nucleotide": "A11537G",
+      "count": 0,
+      "coverage": 1145
+    },
+    {
+      "sample": "sample",
+      "mutation": "nuc:T13195C",
+      "nucleotide": "T13195C",
+      "count": 0,
+      "coverage": 662
+    },
+    {
+      "sample": "sample",
+      "mutation": "nuc:C15240T",
+      "nucleotide": "C15240T",
+      "count": 0,
+      "coverage": 652
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:A67V",
+      "nucleotide": "C21762T",
+      "count": 0,
+      "coverage": 452
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:T95I",
+      "nucleotide": "C21846T",
+      "count": 369,
+      "coverage": 370
+    },
+    {
+      "sample": "sample",
+      "mutation": "del:21987:9",
+      "nucleotide": "-21987.9",
+      "count": 0,
+      "coverage": 854
+    },
+    {
+      "sample": "sample",
+      "mutation": "del:22194:3",
+      "nucleotide": "-22194.3",
+      "count": 0,
+      "coverage": 943
+    },
+    {
+      "sample": "sample",
+      "mutation": "nuc:22205+GAGCCAGAA",
+      "nucleotide": "+22205.GAGCCAGAC",
+      "count": 0,
+      "coverage": 891
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:G446S",
+      "nucleotide": "G22898A",
+      "count": 634,
+      "coverage": 791
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:G496S",
+      "nucleotide": "G23048A",
+      "count": 1075,
+      "coverage": 1095
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:T547K",
+      "nucleotide": "C23202A",
+      "count": 472,
+      "coverage": 480
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:N856K",
+      "nucleotide": "C24130A",
+      "count": 1472,
+      "coverage": 1494
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:L981F",
+      "nucleotide": "C24503T",
+      "count": 690,
+      "coverage": 700
+    },
+    {
+      "sample": "sample",
+      "mutation": "m:D3G",
+      "nucleotide": "A26530G",
+      "count": 780,
+      "coverage": 799
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 0,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BA.1"],
+  "run.dir": ["sample"]
+}

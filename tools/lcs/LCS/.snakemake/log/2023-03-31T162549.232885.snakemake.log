@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_gb=8000
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+all                      1              1              1
+bwa_paired               1              8              8
+decompose                1              8              8
+pango_make_sites2        1              1              1
+pool_mutect              1              1              1
+pool_vcf_to_table        1              1              1
+total                    6              1              8
+
+Select jobs to execute...
+
+[Fri Mar 31 16:25:50 2023]
+rule bwa_paired:
+    input: data/fastq/sample_1.fastq.gz, data/fastq/sample_2.fastq.gz
+    output: outputs/pool_map/sample.bam
+    jobid: 5
+    reason: Missing output files: outputs/pool_map/sample.bam; Updated input files: data/fastq/sample_1.fastq.gz, data/fastq/sample_2.fastq.gz
+    wildcards: x=sample
+    threads: 8
+    resources: tmpdir=/tmp, mem_gb=3
+
+[Fri Mar 31 16:25:50 2023]
+Error in rule bwa_paired:
+    jobid: 5
+    input: data/fastq/sample_1.fastq.gz, data/fastq/sample_2.fastq.gz
+    output: outputs/pool_map/sample.bam
+    shell:
+        bwa mem -t 8 -R "@RG\tID:sample\tSM:sample\tLB:sample" data/refs/NC_045512.2.fasta data/fastq/sample_1.fastq.gz data/fastq/sample_2.fastq.gz | samtools view -F256 -F2048 -F4 -q60 -Sb - | samtools sort - -o outputs/pool_map/sample.bam && samtools index outputs/pool_map/sample.bam
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job bwa_paired since they might be corrupted:
+outputs/pool_map/sample.bam
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-03-31T162549.232885.snakemake.log

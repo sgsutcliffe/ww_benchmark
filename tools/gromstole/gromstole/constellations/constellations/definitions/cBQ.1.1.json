@@ -1,0 +1,44 @@
+{
+    "label": "Omicron (BQ.1.1-like)",
+    "description": "BQ.1.1 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BQ.1.1"
+        ],
+        "WHO_label": "Omicron",
+        "mrca_lineage": "BQ.1.1",
+        "lineage_name": "BQ.1.1",
+        "parent_lineage": "BA.5",
+        "PHE_label": "",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BQ.1.1",
+        ""
+    ],
+    "sites": [ 
+      {
+        "nt": "A17039G",
+        "aa": "ORF1b:N1191S"
+      },
+      {
+        "nt": "T22942A",
+        "aa": "spike:N460K"
+      }
+    ],
+    "note": "Unique mutations for sublineage",
+    "rules": {
+      "default": {
+        "min_alt": 27,
+        "max_ref": 5,
+        "":"ref",
+        "":"ref",
+        "":"ref",
+        "":"ref",
+        "":"alt"
+      }
+    }
+}

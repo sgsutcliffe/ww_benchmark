@@ -1,0 +1,10 @@
+Tool	RequireSourceCodeEdit	FunctionalOutOfBox	NeedsSeperateFiles	Time/Total	Mem/Peak(KB)	Notes
+AG	TRUE	FALSE	Reference	DNF	DNF	*Does not run
+Alcov	FALSE	TRUE		26:53	199028	
+Cojac	FALSE	FALSE	"Primers,VOC Definitions"	36:3	111180	*Need to download external files to run
+Freyja	FALSE	FALSE	Primers	44:28	426556	*Need to download external files to run
+Gromstole	FALSE	TRUE		39:43	206752	
+LCS	FALSE	TRUE		1:52:38	1861140	
+Lineagespot	TRUE	FALSE	"Primers,LineageMutations,ReferenceGFF,snpEffDB"	1:14:29	1310144	"*Need to download external files to run,require creation of custom snpEff DB,need custom R script to run obtain final lineage frequencies"
+Pipes	TRUE	FALSE	3ReferenceFiles(ifile;gfile;vfile)	DNF	>120G	"*MemoryRequirement,Process killed with OOM with 128G of Memory"
+VLQ	TRUE	FALSE	"GISAID Metadata,GISIAID FASTA,Reference"	DNF	>120G	"*source code modified to read the GISAID data,need to download external files to run,requires creation of custom database,database does not build with 128G of memory."

@@ -1,0 +1,41 @@
+{
+    "label": "Omicron (BA.4-like)",
+    "description": "BA.4 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BA.4"
+        ],
+        "WHO_label": "Omicron",
+	      "mrca_lineage": "BA.4",
+        "lineage_name": "BA.4",
+        "parent_lineage": "B.1.1.529",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BA.4"
+    ],
+    "sites": [
+      {
+        "nt": "G27788T",
+        "aa": "orf7b:L11F"
+      }, 
+      {
+        "nt": "C28724T",
+        "aa": "n:P151S"
+      }
+    ],
+    "note": "Unique mutations for sublineage",
+    "rules": {
+      "default": {
+        "min_alt": 29,
+        "max_ref": 5,
+        "m:D3N":"ref",
+        "s:Q493":"ref",
+        "orf6:D61":"not ref",
+        "n:P151S":"alt"
+      }
+    }
+}
