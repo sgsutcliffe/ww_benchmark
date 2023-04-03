@@ -1,0 +1,23 @@
+Building DAG of jobs...
+WorkflowError:
+MissingInputException: Missing input files for rule cram_add_rg_tag:
+    output: outputs/pool_map/sample2.bam
+    wildcards: x=sample2
+    affected files:
+        data/cram/sample2.cram
+MissingInputException: Missing input files for rule bwa_single:
+    output: outputs/pool_map/sample2.bam
+    wildcards: x=sample2
+    affected files:
+        data/fastq/sample2.fastq.gz
+MissingInputException: Missing input files for rule bam_add_rg_tag:
+    output: outputs/pool_map/sample2.bam
+    wildcards: x=sample2
+    affected files:
+        data/bams/sample2.bam
+MissingInputException: Missing input files for rule bwa_paired:
+    output: outputs/pool_map/sample2.bam
+    wildcards: x=sample2
+    affected files:
+        data/fastq/sample2_2.fastq.gz
+        data/fastq/sample2_1.fastq.gz

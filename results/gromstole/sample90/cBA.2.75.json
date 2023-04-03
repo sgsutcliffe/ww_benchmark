@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "orf1a:N4060S",
+      "nucleotide": "A12444G",
+      "count": 0,
+      "coverage": 1035
+    },
+    {
+      "sample": "sample",
+      "mutation": "orf1a:S1221L",
+      "nucleotide": "C3927T",
+      "count": 0,
+      "coverage": 840
+    },
+    {
+      "sample": "sample",
+      "mutation": "e:T11A",
+      "nucleotide": "A26275G",
+      "count": 1,
+      "coverage": 1191
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:K147E",
+      "nucleotide": "A22001G",
+      "count": 1,
+      "coverage": 1247
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:F157L",
+      "nucleotide": "C22033A",
+      "count": 2,
+      "coverage": 1309
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:W152R",
+      "nucleotide": "T22016C",
+      "count": 0,
+      "coverage": 1330
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:I210V",
+      "nucleotide": "A22190G",
+      "count": 2,
+      "coverage": 1435
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:N460K",
+      "nucleotide": "T22942G",
+      "count": 0,
+      "coverage": 1674
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:G257S",
+      "nucleotide": "G22331A",
+      "count": 0,
+      "coverage": 662
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 0.0006,
+      "lower.95": 0.0002,
+      "upper.95": 0.0011,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BA.2.75"],
+  "run.dir": ["sample"]
+}

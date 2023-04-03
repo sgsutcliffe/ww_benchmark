@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "orf1a:Q556K",
+      "nucleotide": "C1931A",
+      "count": 0,
+      "coverage": 30
+    },
+    {
+      "sample": "sample",
+      "mutation": "orf1b:M1156I",
+      "nucleotide": "G16935A",
+      "count": 0,
+      "coverage": 105
+    },
+    {
+      "sample": "sample",
+      "mutation": "n:E136D",
+      "nucleotide": "G28681T",
+      "count": 1,
+      "coverage": 45
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 0.0056,
+      "lower.95": 0.0001,
+      "upper.95": 0.0307,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BE.1"],
+  "run.dir": ["sample"]
+}

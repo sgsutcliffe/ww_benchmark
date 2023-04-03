@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "S:T19R",
+      "nucleotide": "C21618G",
+      "count": 535,
+      "coverage": 1251
+    },
+    {
+      "sample": "sample",
+      "mutation": "S:P681R",
+      "nucleotide": "C23604G",
+      "count": 447,
+      "coverage": 1050
+    },
+    {
+      "sample": "sample",
+      "mutation": "S:D950N",
+      "nucleotide": "G24410A",
+      "count": 787,
+      "coverage": 1035
+    },
+    {
+      "sample": "sample",
+      "mutation": "ORF3a:S26L",
+      "nucleotide": "C25469T",
+      "count": 420,
+      "coverage": 1061
+    },
+    {
+      "sample": "sample",
+      "mutation": "M:I82T",
+      "nucleotide": "T26767C",
+      "count": 1196,
+      "coverage": 2376
+    },
+    {
+      "sample": "sample",
+      "mutation": "ORF7a:V82A",
+      "nucleotide": "T27638C",
+      "count": 567,
+      "coverage": 932
+    },
+    {
+      "sample": "sample",
+      "mutation": "ORF7a:T120I",
+      "nucleotide": "C27752T",
+      "count": 596,
+      "coverage": 1208
+    },
+    {
+      "sample": "sample",
+      "mutation": "N:D63G",
+      "nucleotide": "A28461G",
+      "count": 113,
+      "coverage": 360
+    },
+    {
+      "sample": "sample",
+      "mutation": "N:R203M",
+      "nucleotide": "G28881T",
+      "count": 508,
+      "coverage": 852
+    },
+    {
+      "sample": "sample",
+      "mutation": "N:D377Y",
+      "nucleotide": "G29402T",
+      "count": 380,
+      "coverage": 790
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 0.5078,
+      "lower.95": 0.4381,
+      "upper.95": 0.5773,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["B.1.617.2"],
+  "run.dir": ["sample"]
+}

@@ -1,0 +1,6 @@
+	sample.variant.tsv
+summarized	[('Other', 0.9999999999002215)]
+lineages	B
+abundances	1.00000000
+resid	17.367021590322775
+coverage	98.12058990736715

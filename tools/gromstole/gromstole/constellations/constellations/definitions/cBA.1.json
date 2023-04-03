@@ -1,0 +1,102 @@
+{
+    "label": "Omicron (BA.1-like)",
+    "description": "BA.1 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BA.1"
+        ],
+        "WHO_label": "Omicron",
+	"mrca_lineage": "BA.1",
+        "lineage_name": "BA.1",
+        "parent_lineage": "B.1.1.529",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BA.1"
+    ],
+    "sites": [
+        {
+            "nt": "A2832G",
+            "aa": "orf1ab:K856R"
+        },
+        {
+            "nt": "T5386G",
+            "aa": "nuc:T5386G"
+        },
+        {
+            "nt": "-6513.3",
+            "aa": "del:6513:3"
+        },
+        {
+            "nt": "G8393A",
+            "aa": "orf1ab:A2710T"
+        },
+        {
+            "nt": "A11537G",
+            "aa": "orf1ab:I3758V"
+        },
+        {
+            "nt": "T13195C",
+            "aa": "nuc:T13195C"
+        },
+        {
+            "nt": "C15240T",
+            "aa": "nuc:C15240T"
+        },
+        {
+            "nt": "C21762T",
+            "aa": "spike:A67V"
+        },
+        {
+            "nt": "C21846T",
+            "aa": "spike:T95I"
+        },
+        {
+            "nt": "-21987.9",
+            "aa": "del:21987:9"
+        },
+        {
+            "nt": "-22194.3",
+            "aa": "del:22194:3"
+        },
+        {
+            "nt": "+22205.GAGCCAGAC",
+            "aa": "nuc:22205+GAGCCAGAA"
+        },
+        {
+            "nt": "G22898A",
+            "aa": "spike:G446S"
+        },
+        {
+            "nt": "G23048A",
+            "aa": "spike:G496S"
+        },
+        {
+            "nt": "C23202A",
+            "aa": "spike:T547K"
+        },
+        {
+            "nt": "C24130A",
+            "aa": "spike:N856K"
+        },
+        {
+            "nt": "C24503T",
+            "aa": "spike:L981F"
+        },
+        {
+            "nt": "A26530G",
+            "aa": "m:D3G"
+        }
+    ],
+    "note": "Unique mutations for sublineage",
+    "note2": "Requires ancestral mutation so scorpio tie breaks correctly",
+    "rules": {
+      "default": {
+        "min_alt": 17,
+        "max_ref": 2
+      }
+    }
+}

@@ -1,0 +1,2 @@
+sample	status	fit_error	solve_time	n_markers
+sample	optimal_inaccurate	59478.44823851528	0.052043098	274

@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "sample": "sample",
+      "mutation": "ORF1b:N1191S",
+      "nucleotide": "A17039G",
+      "count": 0,
+      "coverage": 602
+    },
+    {
+      "sample": "sample",
+      "mutation": "spike:N460K",
+      "nucleotide": "T22942A",
+      "count": 1,
+      "coverage": 2321
+    }
+  ],
+  "metadata": [
+    {
+      "sample": "sample",
+      "lab": "gromstole"
+    }
+  ],
+  "estimate": [
+    {
+      "est": 0.0003,
+      "lower.95": 0.0001,
+      "upper.95": 0.0009,
+      "_row": "sample"
+    }
+  ],
+  "lineage": ["BQ.1.1"],
+  "run.dir": ["sample"]
+}

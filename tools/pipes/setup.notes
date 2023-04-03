@@ -1,0 +1,15 @@
+#initial setup
+create conda environment first and activate
+conda install zlib, pthreads, bowtie2, python
+git clone
+set env variable via conda LDFLAGS, CFLAGS, CPPFLAGS
+modify makefile include CFLAGS and LDFLAGS during build (comment out existing CFLAGS variable)
+make
+
+#reproduce
+create conda environment first and activate
+import env yaml
+git clone
+copy makefile
+make
+

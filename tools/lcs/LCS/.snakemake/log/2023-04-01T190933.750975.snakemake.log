@@ -1,0 +1,100 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_gb=8000
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+all                      1              1              1
+bwa_paired               1              8              8
+decompose                1              8              8
+pango_make_sites2        1              1              1
+pool_mutect              1              1              1
+pool_vcf_to_table        1              1              1
+total                    6              1              8
+
+Select jobs to execute...
+
+[Sat Apr  1 19:09:34 2023]
+rule bwa_paired:
+    input: data/fastq/sample_1.fastq.gz, data/fastq/sample_2.fastq.gz
+    output: outputs/pool_map/sample.bam
+    jobid: 5
+    reason: Missing output files: outputs/pool_map/sample.bam
+    wildcards: x=sample
+    threads: 8
+    resources: tmpdir=/tmp, mem_gb=3
+
+[Sat Apr  1 19:09:34 2023]
+Finished job 5.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Sat Apr  1 19:09:34 2023]
+rule pango_make_sites2:
+    input: outputs/variants_table/pango-markers-table.tsv
+    output: outputs/lineage_sites/pango_sites.vcf.gz
+    jobid: 3
+    reason: Missing output files: outputs/lineage_sites/pango_sites.vcf.gz
+    resources: tmpdir=/tmp, mem_gb=1
+
+[Sat Apr  1 19:09:35 2023]
+Finished job 3.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Sat Apr  1 19:09:35 2023]
+rule pool_mutect:
+    input: outputs/pool_map/sample.bam, outputs/lineage_sites/pango_sites.vcf.gz
+    output: outputs/pool_mutect/sample.vcf.gz
+    log: outputs/pool_mutect/sample.log
+    jobid: 4
+    reason: Missing output files: outputs/pool_mutect/sample.vcf.gz; Input files updated by another job: outputs/lineage_sites/pango_sites.vcf.gz, outputs/pool_map/sample.bam
+    wildcards: x=sample
+    resources: tmpdir=/tmp, mem_gb=10
+
+[Sat Apr  1 19:09:46 2023]
+Finished job 4.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Sat Apr  1 19:09:46 2023]
+rule pool_vcf_to_table:
+    input: outputs/lineage_sites/pango_sites.vcf.gz, outputs/pool_mutect/sample.vcf.gz
+    output: outputs/variants_table/pool_samples_mypool.tsv
+    jobid: 2
+    reason: Missing output files: outputs/variants_table/pool_samples_mypool.tsv; Input files updated by another job: outputs/pool_mutect/sample.vcf.gz, outputs/lineage_sites/pango_sites.vcf.gz
+    wildcards: z=mypool
+    resources: tmpdir=/tmp, mem_gb=1
+
+[Sat Apr  1 19:09:47 2023]
+Finished job 2.
+4 of 6 steps (67%) done
+Select jobs to execute...
+
+[Sat Apr  1 19:09:47 2023]
+rule decompose:
+    input: outputs/variants_table/pango-markers-table.tsv, outputs/variants_table/pool_samples_mypool.tsv
+    output: outputs/decompose/mypool.status, outputs/decompose/mypool.out
+    jobid: 1
+    reason: Missing output files: outputs/decompose/mypool.out; Input files updated by another job: outputs/variants_table/pool_samples_mypool.tsv
+    threads: 8
+    resources: tmpdir=/tmp, mem_gb=16
+
+[Sat Apr  1 19:09:55 2023]
+Finished job 1.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Sat Apr  1 19:09:55 2023]
+localrule all:
+    input: outputs/decompose/mypool.out
+    jobid: 0
+    reason: Input files updated by another job: outputs/decompose/mypool.out
+    resources: tmpdir=/tmp
+
+[Sat Apr  1 19:09:55 2023]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2023-04-01T190933.750975.snakemake.log

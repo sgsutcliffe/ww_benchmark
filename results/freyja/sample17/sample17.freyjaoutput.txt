@@ -1,0 +1,6 @@
+	sample.variant.tsv
+summarized	[('BA.2* [Omicron (BA.2.X)]', 0.9999999843851924)]
+lineages	BA.2.23 BA.2.3.10 BA.2.5 BA.2.8
+abundances	0.46310069 0.36842099 0.12500000 0.04347830
+resid	0.650686055748939
+coverage	71.92254957696552

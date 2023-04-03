@@ -1,0 +1,48 @@
+{
+    "label": "Omicron (BE.1-like)",
+    "description": "BE.1 lineage defining mutations",
+    "sources": [
+    ],
+    "type": "variant",
+    "variant": {
+        "Pango_lineages": [
+            "BE.1"
+        ],
+        "WHO_label": "Omicron",
+        "mrca_lineage": "BE.1",
+        "lineage_name": "BE.1",
+        "parent_lineage": "BA.5",
+        "PHE_label": "",
+        "representative_genome": ""
+    },
+    "tags": [
+        "BE.1",
+        ""
+    ],
+    "sites": [
+      {
+        "nt": "C1931A",
+        "aa": "orf1a:Q556K"
+      },
+      {
+        "nt": "G16935A",
+        "aa": "orf1b:M1156I"
+      },
+      {
+        "nt": "G28681T",
+        "aa": "n:E136D"
+      }
+    ],
+    "note": "Unique mutations for sublineage",
+    "rules": {
+      "default": {
+        "min_alt": 27,
+        "max_ref": 5,
+        "":"ref",
+        "":"ref",
+        "":"ref",
+        "":"ref",
+        "":"alt"
+      }
+    }
+}
